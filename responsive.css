@@ -1,0 +1,50 @@
+@media screen and (max-width:576px) {
+    nav ul{
+        display:  none;
+    }
+    .icon{
+        display: block;
+    }
+    .header-section{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .header-section h1,.header-section span {
+        font-size: 2.5rem;
+    }
+    .p-title{
+        font-size: 15px;
+    }
+    .btn ,#btn{
+        padding: 15px 15px;
+        font-size: 12px;
+        font-weight: 700;
+        gap: 40px;
+    }
+    .title-1,.title-2 {
+        width: 100px;
+        height: 50px;
+        padding: 10px 15px;
+    }
+    .title-2 {
+        width: 120px;
+        height: 50px;
+    }
+    .title-1{
+        top: 5%;left: 55%;
+    }
+    .title-2{
+        top: 46%;left: 10%;
+    }
+    .title-1 p,.title-2 p{
+        font-size: 10px;
+    }
+    .habits-card{
+        flex-direction: column;
+    }
+    .headding{
+        font-size: 1.5rem;
+    }
+    
+
+}
