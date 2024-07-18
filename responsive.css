@@ -45,6 +45,13 @@
     .headding{
         font-size: 1.5rem;
     }
-    
+    .run-content{
+        flex-direction: column;
+    }
+    #btn-2{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
 
 }
