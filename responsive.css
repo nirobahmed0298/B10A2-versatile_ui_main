@@ -12,9 +12,12 @@
         gap: 30px;
     }
 
-    .header-section h1,
-    .header-section span {
+    .header-section h1 {
         font-size: 2.5rem;
+    }
+
+    .header-section span {
+        font-size: 4rem;
     }
 
     .p-title {
@@ -73,25 +76,27 @@
 
     .Exercises-section {
         margin: 50px 0;
-    }
-
+    }  
     .BMI-section {
-        padding: 20px 40px;
+        padding: 20px;
         gap: 40px;
     }
 
-    .BMI-title {
-        width: 80%;
-        margin: 30px auto;
+    .BMI-user input,
+    select {
+        width: 80px;
     }
 
-    .BMI-user {
-        width: 200px;
+    .BMI-user #sex {
+        width: 120px;
     }
 
     .BMI-user select {
-        width: 240px;
+        width: 260px;
+
     }
+
+
 
     .BMI-table h1,
     .BMI-user h1 {
@@ -114,7 +119,102 @@
 
     table,
     th,
-    td{
+    td {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav ul {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .header-section,
+    .BMI-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .header-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-section span {
+        font-size: 4rem;
+    }
+
+    .p-title {
+        font-size: 15px;
+    }
+
+    .btn,
+    #btn {
+        padding: 15px 15px;
+        font-size: 12px;
+        font-weight: 700;
+        gap: 40px;
+    }
+
+    .title-1,
+    .title-2 {
+        width: 100px;
+        height: 50px;
+        padding: 10px 15px;
+    }
+
+    .title-2 {
+        width: 120px;
+        height: 50px;
+    }
+
+    .title-1 {
+        top: 5%;
+        left: 55%;
+    }
+
+    .title-2 {
+        top: 46%;
+        left: 10%;
+    }
+
+    .title-1 p,
+    .title-2 p {
+        font-size: 10px;
+    }
+
+    .headding {
+        font-size: 1.5rem;
+    }
+
+    #btn-2 {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .Exercises-section {
+        margin: 50px 0;
+    }
+
+    .team-membars {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-section {
+        gap: 20px;
+    }
+
+    .footer-title p {
+        font-size: 12px;
+
+    }
+
+    table,
+    th,
+    td {
         font-size: 10px;
     }
 }
