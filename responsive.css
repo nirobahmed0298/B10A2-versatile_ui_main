@@ -64,6 +64,13 @@
     .run-content {
         flex-direction: column;
     }
+    .run-image{
+        width: 100%;
+    }
+    .run-image img {
+        object-fit:cover;
+        border-radius: 10px;
+    }
 
     .headding {
         font-size: 1.5rem;
@@ -134,7 +141,7 @@
     }
 
     .header-section,
-    .BMI-section {
+    .BMI-section,.run-content {
         flex-direction: column;
         gap: 30px;
     }
@@ -185,14 +192,16 @@
     .title-2 p {
         font-size: 10px;
     }
-
+    .run-image img {
+        object-fit:cover;
+        border-radius: 10px;
+    }
     .headding {
         font-size: 1.5rem;
     }
 
     #btn-2 {
         margin-bottom: 30px;
-        width: 100%;
     }
 
     .Exercises-section {
