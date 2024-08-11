@@ -80,7 +80,13 @@
         margin-bottom: 30px;
         width: 100%;
     }
-
+    .card{
+        width: 100%;
+    }
+    .BMI-title{
+        width: 80%;
+        margin: auto;
+    }
     .Exercises-section {
         margin: 50px 0;
     }  
@@ -88,23 +94,19 @@
         padding: 20px;
         gap: 40px;
     }
-
     .BMI-user input,
     select {
-        width: 80px;
+        width: 90px;
     }
 
     .BMI-user #sex {
-        width: 120px;
+        width: 130px;
     }
 
     .BMI-user select {
-        width: 260px;
+        width: 270px;
 
     }
-
-
-
     .BMI-table h1,
     .BMI-user h1 {
         font-size: 1.3rem;
